@@ -4,7 +4,8 @@ import random
 import math
 import sys
 
-print('program arguments:', sys.argv)
+arg_list = sys.argv
+print(arg_list)
 
 ticket = random.randint(1, 1000)
 answer = math.sqrt(2)
